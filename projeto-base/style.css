@@ -1,0 +1,49 @@
+.card-largura {
+    max-width: 18rem;
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    object-position: 0 75%;
+    height: 400px;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.texto-cor-especial {
+    color: darkred !important;
+}
+
+.botao-cor-especial {
+    border-color: darkred;
+    background-color: darkred;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+.botao-carrossel {
+    opacity: 0 !important;
+}
+
+.botao-carrossel:hover {
+    opacity: 0.1 !important;
+    border-left-style: dashed;
+    border-right-style: dashed;
+}
+
+.nao-selecionavel {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
